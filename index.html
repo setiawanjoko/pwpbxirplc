@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let biodata = {
+            nama: "Setiawan Joko",
+            jurusan: "RPL",
+            kelas: "XI RPL C",
+        }
+
+        console.log(biodata)
+
+        /*
+        Nama saya Setiawan Joko
+        Saya jurusan RPL
+        Saya kelas XI RPL C
+        */
+
+        console.log(`Nama saya ${biodata.nama}`)
+        console.log(`Saya jurusan ${biodata.jurusan}`)
+        console.log(`Saya kelas ${biodata.kelas}`)
+
+        biodata.umur = 17
+        console.log(`Umur saya ${biodata.umur}`)
+
+        delete biodata.kelas
+        console.log(biodata);
+    </script>
+</body>
+</html>
